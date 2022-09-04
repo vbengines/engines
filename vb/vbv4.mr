@@ -84,11 +84,11 @@ private node wires {
     output wire4: ignition_wire();
 }
 
-public node vb00v4 {
+public node vbv4 {
     alias output __out: engine;
 
     engine engine(
-        name: "vb 0.0 v4",
+        name: "vb 2.8 v4",
         starter_torque: 1000 * units.lb_ft,
         starter_speed: 1000 * units.rpm,
         redline: 10000 * units.rpm
